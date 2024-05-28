@@ -3,6 +3,11 @@ Simple and adaptable 3d implementation of Pix2Pix in keras-tensorflow
 
 ---
 
+Install python packages using 
+- pip install -r requirements.txt
+
+---
+
 To use with your 3d dataset, first train the model using:
 - python folderToProject/train.py -pathA=/meddata/3dData/train-A/ -pathB=/meddata/3dData/train-B/ -splitterA=A- -splitterB=B- -dimensions 184 120 184 -name generator
 
